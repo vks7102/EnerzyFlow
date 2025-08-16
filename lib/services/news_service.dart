@@ -4,7 +4,6 @@ import 'package:http/http.dart' as http;
 import '../models/article.dart';
 
 class NewsService {
-  // TODO: replace with your own key if needed
   static const String apiKey = '7d98d3c750a541968453c438567faa0e';
   static const String baseUrl = 'https://newsapi.org/v2';
 

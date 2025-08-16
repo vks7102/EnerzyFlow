@@ -37,7 +37,7 @@ class DetailsScreen extends StatelessWidget {
     return Scaffold(
       body: Stack(
         children: [
-          // ✅ Cached Hero Image
+          //Cached Hero Image
           if (article.urlToImage != null && article.urlToImage!.isNotEmpty)
             Hero(
               tag: article.url,
@@ -126,7 +126,7 @@ class DetailsScreen extends StatelessWidget {
             },
           ),
 
-          // ✅ Floating Read More button (fixed)
+          // Floating Read More button
           Positioned(
             bottom: 24,
             left: 24,
